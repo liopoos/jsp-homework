@@ -1,0 +1,36 @@
+<%@ page contentType="text/html; charset=utf-8" language="java"%>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>结果</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="./">jsp作业</a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="login.jsp">登录</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="container">
+    <% String username = request.getParameter("username");
+    String password = request.getParameter("password"); %>
+    <%
+    if(username.equals("admin") && password.equals("admin")){
+        out.println("<div class='alert alert-success' role='alert'>登录成功</div>");
+    }
+    else{
+        out.println("<div class='alert alert-danger' role='alert'>用户名或密码错误</div>");
+    }
+    %>
+    <!-- <%=username %>
+    <%=password %> -->
+</div>
