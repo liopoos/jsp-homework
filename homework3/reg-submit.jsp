@@ -30,7 +30,7 @@
         out.println("<div class='alert alert-success' role='alert'>注册成功</div>");
         out.println("<ul class='list-group'>");
         out.println("<li class='list-group-item'>用户名：" + username + "</li>");
-        out.println("<li class='list-group-item'>密码：" + username + "</li>");
+        out.println("<li class='list-group-item'>密码：" + password + "</li>");
         out.println("</ul>");
     }
     else{
