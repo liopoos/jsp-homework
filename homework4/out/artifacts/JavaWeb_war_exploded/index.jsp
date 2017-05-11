@@ -30,7 +30,7 @@
 <div class="container">
     <div class="jumbotron">
         <h1>Hello, world!</h1>
-        <p>这是一个jsp作业</p>
+        <p>这是一个jsp(实验4 JSP+JavaBean+Servlet 项目设计 )作业</p>
     </div>
 </div>
 </body>
