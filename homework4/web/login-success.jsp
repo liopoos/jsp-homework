@@ -21,5 +21,5 @@
     </div>
 </nav>
 <div class="container">
-    <div class='alert alert-success' role='alert'>登录成功</div>
+    <div class='alert alert-success' role='alert'>登录成功。</div>
 </div>

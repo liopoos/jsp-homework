@@ -21,5 +21,5 @@
     </div>
 </nav>
 <div class="container">
-    <div class='alert alert-danger' role='alert'>两次密码输入不一致，请重新输入</div>
+    <div class='alert alert-danger' role='alert'>两次密码输入不一致，请重新输入。</div>
 </div>

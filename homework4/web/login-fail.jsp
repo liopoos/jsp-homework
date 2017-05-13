@@ -28,6 +28,6 @@
     </div>
 </nav>
 <div class="container">
-    <div class='alert alert-danger' role='alert'>用户名或密码错误</div>
+    <div class='alert alert-danger' role='alert'>用户名或密码错误。</div>
 </div>
 
