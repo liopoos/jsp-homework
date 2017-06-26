@@ -1,4 +1,4 @@
-<%@ page contentType="text/html; charset=utf-8" language="java" import="bean.userBean" %>
+<%@ page contentType="text/html; charset=utf-8" language="java" %>
 <html lang="zh-CN">
 <head>
     <meta charset="utf-8">
@@ -32,11 +32,14 @@
 
                 </div>
                 <label>用户名</label>
-                <input type="text" name="username" id="username" class="form-control" placeholder="请输入用户名" required autofocus><br>
+                <input type="text" name="username" id="username" class="form-control" placeholder="请输入用户名" required
+                       autofocus><br>
                 <label>密码</label>
-                <input type="password" name="password" id="password" class="form-control" placeholder="请输入密码" required><br>
+                <input type="password" name="password" id="password" class="form-control" placeholder="请输入密码"
+                       required><br>
                 <label>重复密码</label>
-                <input type="password" name="password2" id="password2" class="form-control" placeholder="请再次输入密码" required maxLength="16"><br>
+                <input type="password" name="password2" id="password2" class="form-control" placeholder="请再次输入密码"
+                       required maxLength="16"><br>
                 <button type="submit" class="btn btn-primary">注册</button>
                 <a href="login.jsp" class="btn btn-default" id="btn-reg">返回登录</a>
             </form>
@@ -44,5 +47,6 @@
         <div class="col-md-4">
         </div>
     </div>
+</div>
 </body>
 </html>

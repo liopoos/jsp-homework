@@ -1,5 +1,6 @@
 /**
  * Created by hades on 2017/5/10.
+ * 注册验证
  */
 
 import bean.regBean;
